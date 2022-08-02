@@ -15,7 +15,7 @@ python -m pip install requirements.txt
 
 Compile the Cython .pyx files specified in the `setup.py` file (with the `-i` flag, making them importable in Python):
 ```
-python setup.py build -i
+python setup.py build_ext -i
 ```
 
 Finally, run the `src` python package:
