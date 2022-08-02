@@ -21,6 +21,7 @@ fib(PyObject *self, PyObject *args)
 
     /* Initialises a new Python list and initialise it to [0, 1, 1]
     Note that we have to first "box" values (i.e. convert from C to Python), before adding them to the list.
+    Note that PyList_SetItem "steals" references so the reference counts of the added numbers do not need to be decremented
     */
     PyObject *numbers = PyList_New(3);
     PyList_SetItem(numbers, 0, PyLong_FromLong(0));
