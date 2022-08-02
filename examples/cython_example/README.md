@@ -6,7 +6,7 @@ Note that this example will require an installed C-compiler (on Windows, Microso
 
 # How to run example
 
-From the project root directory, change into this example folder and install all dependencies
+From the project root directory, change into this example folder and install all dependencies:
 
 ```
 cd examples/cython_example
