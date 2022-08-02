@@ -29,10 +29,12 @@ fib(PyObject *self, PyObject *args)
 
     int previous = 1;
     int current = 1;
+    int temp;
     while (current < limit)
     {
+        temp = current;
         current = current + previous;
-        previous = current;
+        previous = temp;
 
         // "Box" The current value to convert it to a Python int, then append it to the numbers Python list.
         PyObject *newElement = PyLong_FromLong(current);
