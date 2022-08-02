@@ -1,6 +1,6 @@
 # Cython library
 
-This example defines an external library function in lib.py using Cython, which, after compilation, can be imported in regular python code. It runs about times faster than the base example written in vanilla Python.
+This example defines an external library function in lib.py using Cython, which, after compilation, can be imported in regular python code. It runs about 4-5 times faster than the base example written in vanilla Python.
 
 Note that this example will require an installed C-compiler (on Windows, Microsoft C/C++ Build Tools may need to be downloaded too). Compiling the code means, however, that the final distributable is now platform specific and separate distributions must be made for, e.g. Windows, Mac OS and Linux.
 

@@ -1,6 +1,6 @@
 # C-extension example
 
-This example speeds up the library function considerably by implementing it completely in C as a C-extension for Python. It runs about times faster than the base example written in vanilla Python.
+This example speeds up the library function considerably by implementing it completely in C as a C-extension for Python. It runs about 10 times faster than the base example written in vanilla Python.
 
 Note that this example will require an installed C-compiler (on Windows, Microsoft C/C++ Build Tools may need to be downloaded too). Compiling the code means, however, that the final distributable is now platform specific and separate distributions must be made for, e.g. Windows, Mac OS and Linux.
 
