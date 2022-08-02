@@ -15,9 +15,9 @@ def main():
     # if the jit-accelerated function is only run once, it is much slower
     # than if it had not been accelerated. This is due to the extra compile-step.
     for _ in range(1_000_000):
-        fib(limit=1_000_000)
+        fib(1_000_000)
 
-    print(f"Result is {fib(limit=1_000_000)=}")
+    print(f"Result is {fib(1_000_000)=}")
     print(f"Time taken: {time.perf_counter() - initial}")
 
 
