@@ -14,7 +14,7 @@ fib(PyObject *self, PyObject *args)
 {
     // "unbox" input argument called "limit" to convert it from a Python variable to a C int
     int limit;
-    if (!PyArg_ParseTuple(args, "limit", &limit))
+    if (!PyArg_ParseTuple(args, "i", &limit))
     {
         return NULL; // signal an error
     }
