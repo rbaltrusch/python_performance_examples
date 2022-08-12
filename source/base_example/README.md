@@ -7,6 +7,6 @@ This example acts as a baseline to compare against when running the accelerated 
 From the project root directory, change into this example folder and run the `src` python package:
 
 ```
-cd examples/base_example
+cd source/base_example
 python -m src
 ```

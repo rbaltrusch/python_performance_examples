@@ -7,7 +7,7 @@ This example showcases the speed of the Julia programming language, as compared 
 From the project root directory, change into this example folder and run the `main.jl` file:
 
 ```
-cd examples/julia_example
+cd source/julia_example
 julia main.jl
 ```
 

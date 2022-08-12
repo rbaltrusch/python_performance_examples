@@ -2,7 +2,7 @@
 .vscode/
 
 #ignore c-files in cython example
-examples/cython_example/**/*.c
+source/cython_example/**/*.c
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

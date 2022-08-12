@@ -12,7 +12,7 @@ To get a copy of this repository, simply open up git bash in an empty folder and
 
     $ git clone https://github.com/rbaltrusch/python_performance_examples
 
-To run a particular example, change from the root of the repository into its example folder (e.g. examples/base_example), then follow the run instructions in the example's README.md file. Note that each example has a different set of dependencies that may need to be installed before running the example. These dependencies are documented in the requirements.txt file in the respective example folder.
+To run a particular example, change from the root of the repository into its example folder (e.g. source/base_example), then follow the run instructions in the example's README.md file. Note that each example has a different set of dependencies that may need to be installed before running the example. These dependencies are documented in the requirements.txt file in the respective example folder.
 
 ## Contributions
 

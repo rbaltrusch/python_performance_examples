@@ -13,7 +13,7 @@ git clone https://github.com/rbaltrusch/python_performance_examples
 Then install the dependencies of the example to be worked on:
 
 ```
-cd examples/<exampledir>
+cd source/<exampledir>
 python -m pip install -r requirements.txt
 ```
 

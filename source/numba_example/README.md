@@ -7,7 +7,7 @@ The accelerated code using the numba Just-In-Time (JIT) compiler should run abou
 From the project root directory, change into this example folder, install all dependencies, then run the `src` python package:
 
 ```
-cd examples/numba_example
+cd source/numba_example
 python -m pip install requirements.txt
 python -m src
 ```

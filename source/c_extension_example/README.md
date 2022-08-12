@@ -9,7 +9,7 @@ Note that this example will require an installed C-compiler (on Windows, Microso
 From the project root directory, change into this example folder and install all dependencies:
 
 ```
-cd examples/c_extension_example
+cd source/c_extension_example
 python -m pip install requirements.txt
 ```
 
