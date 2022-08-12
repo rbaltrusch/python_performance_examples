@@ -1,6 +1,6 @@
 # Jit-acceleration using numba
 
-The accelerated code using the numba Just-In-Time (JIT) compiler should run about 3 times faster than the vanilla Python code in the base example.
+The accelerated code using the numba Just-In-Time (JIT) compiler should run about 3 times faster than the vanilla Python code in the base example. Note that the first time that this example is run may take a lot more time than subsequent runs due to the JIT compilation time.
 
 # How to run example
 
