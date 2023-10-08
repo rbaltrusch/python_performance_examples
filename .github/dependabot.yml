@@ -9,9 +9,11 @@ updates:
     directory: "/source/cython_example" # Location of package manifests
     schedule:
       interval: "weekly"
-
-updates:
   - package-ecosystem: "pip" # See documentation for possible values
     directory: "/source/numba_example" # Location of package manifests
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "github-actions"
+    directory: "/"
     schedule:
       interval: "weekly"
