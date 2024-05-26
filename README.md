@@ -6,6 +6,8 @@ A benchmark of the different optimization approaches can be seen in the graph be
 
 ![Benchmarking graph](media/plot.PNG?raw=true)
 
+Note: software versions used were Python 3.8.8, Cython 0.29.23, numba 0.53.1 and Julia 1.7.3.
+
 ## Getting started
 
 To get a copy of this repository, simply open up git bash in an empty folder and use the command:
